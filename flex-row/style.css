@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    /* height: 100%; */
+    width: 100%;
+    outline: red;
+}
+
+.row1{
+    border: 2px solid black;
+}
+.row2{
+    border: 2px solid blue;
+}
+.row3{
+    border: 2px solid green;
+}
+.row4{
+    border: 2px solid red;
+}
+.row5{
+    border: 2px solid purple;
+}
