@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* The CSS box-sizing property allows us to include the padding and border in 
+    an element's total width and height. */
+    box-sizing: border-box;
+}
+
+.navbar-header{
+    padding: 50px;
+}
+nav{
+    display: inline;
+}
+.logo {
+    height: 75px;
+    width: 75px;
+    /* float: left; */
+}
+
+.ul-navbar{
+    
+    list-style: none;
+    
+}
+.ul-navbar li {
+    /* display: inline; */
+}
+a {
+    text-decoration: none;
+}
