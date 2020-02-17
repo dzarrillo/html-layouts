@@ -10,22 +10,32 @@
     padding: 50px;
 }
 nav{
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .logo {
     height: 75px;
     width: 75px;
-    /* float: left; */
 }
 
 .ul-navbar{
-    
+    display: flex;
+    flex-direction: row;
     list-style: none;
-    
+    width: 100%;
+    padding-left: 50px;
 }
 .ul-navbar li {
-    /* display: inline; */
+    padding: 10px 30px 10px 10px;
+    font-size: larger;
 }
 a {
     text-decoration: none;
 }
+
+.li-right{
+    /* Floats are ignored in flex level elements */
+    /* float: right;  */
+    margin-left: auto;
+} 
