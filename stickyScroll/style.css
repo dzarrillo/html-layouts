@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sticky-wrap{
+    width: 100%;
+    position: relative;
+
+}
+.sticky-wrap .section{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-size: cover;
+}
+
+.sticky-wrap .section:nth-child(1){
+    background-image: url(images/biker_lg.jpg);
+}
+.sticky-wrap .section:nth-child(2){
+    background-image: url(images/laughter2.jpg);
+}
+.sticky-wrap .section:nth-child(3){
+    background-image: url(images/nutrition.jpg);
+}
+.sticky-wrap .section:nth-child(4){
+    background-image: url(images/wellness1.jpg);
+}
+.sticky-wrap .section:nth-child(5){
+    background-image: url(images/youGotThis-lg.jpg);
+}
